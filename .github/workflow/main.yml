@@ -7,6 +7,12 @@ on:
     branches: [ "main" ]
   workflow_dispatch:
 
+with: 
+    registry: ghcr.io
+    username: rohmatputrae
+    ecr: auto
+    logout: true
+
 env:
   REGISTRY: ghcr.io/gonjali/absensi-laravel
   GH_REGISTRY: ghcr.io
